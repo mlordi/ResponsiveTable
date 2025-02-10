@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import {InteractsWithResourceInformation} from 'laravel-nova-mixins'
+import {InteractsWithResourceInformation} from '@/mixins'
 
 export default {
   emits: ['actionExecuted', 'delete', 'restore', 'order', 'reset-order-by'],
