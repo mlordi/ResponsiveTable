@@ -212,7 +212,7 @@
             'cursor-pointer': clickableRow,
           }"
           >
-            <div class="flex flex-row p-2" :class="index % 2 === 0 ? 'bg-gray-50' : ''">
+            <div class="flex flex-row p-2" :class="index % 2 === 0 ? 'bg-gray-50 dark:bg-gray-700' : ''">
               <div class="w-1/3" style="width: 25%">
                 <span class="font-bold">{{ field.indexName }}</span>
               </div>
